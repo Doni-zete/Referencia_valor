@@ -1,12 +1,20 @@
-﻿using System;
+﻿using static System.Console;
 
 namespace Demo
 {
-    class Program
+  class Program
+  {
+    static int Adicionar20(int x)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+
+     return  x+ 20;
     }
+    static void Main(string[] args)
+    {
+      int a = 2;
+      a=Adicionar20(a);
+
+      WriteLine($"O valor da variavel é {a}");
+    }
+  }
 }
