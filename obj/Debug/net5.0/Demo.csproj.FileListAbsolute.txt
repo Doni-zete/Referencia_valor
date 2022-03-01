@@ -1,0 +1,16 @@
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\bin\Debug\net5.0\Demo.exe
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\bin\Debug\net5.0\Demo.deps.json
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\bin\Debug\net5.0\Demo.runtimeconfig.json
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\bin\Debug\net5.0\Demo.runtimeconfig.dev.json
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\bin\Debug\net5.0\Demo.dll
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\bin\Debug\net5.0\ref\Demo.dll
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\bin\Debug\net5.0\Demo.pdb
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\obj\Debug\net5.0\Demo.csproj.AssemblyReference.cache
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\obj\Debug\net5.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\obj\Debug\net5.0\Demo.AssemblyInfoInputs.cache
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\obj\Debug\net5.0\Demo.AssemblyInfo.cs
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\obj\Debug\net5.0\Demo.csproj.CoreCompileInputs.cache
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\obj\Debug\net5.0\Demo.dll
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\obj\Debug\net5.0\ref\Demo.dll
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\obj\Debug\net5.0\Demo.pdb
+E:\FATEC\CURSOS\GITHUB\PROJETOS-C#\Arrays\obj\Debug\net5.0\Demo.genruntimeconfig.cache
