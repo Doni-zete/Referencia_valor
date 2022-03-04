@@ -1,20 +1,26 @@
 ﻿using static System.Console;
-
-namespace Demo
+public class Program
 {
-  class Program
+  static void Demo1()
   {
-    static int Adicionar20(int x)
-    {
+    string nome = "Doni";
+    TrocarNome(nome, "Arnold");
+    WriteLine($"O novo nom é{nome}");
 
-     return  x+ 20;
-    }
-    static void Main(string[] args)
-    {
-      int a = 2;
-      a=Adicionar20(a);
-
-      WriteLine($"O valor da variavel é {a}");
-    }
   }
+
+  static void MudarParaImpar(int[] paares)
+
+for (var i = 0; i<pares.Length; i++)
+
+{
+pares[i] pares[i]++;
+}
+public static void Main()
+{
+  int[] pares = new int[] { 0, 2, 4, 6, 8 };
+
+}
+
+
 }
