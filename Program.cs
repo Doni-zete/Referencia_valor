@@ -3,24 +3,31 @@ public class Program
 {
   static void Demo1()
   {
-    string nome = "Doni";
-    TrocarNome(nome, "Arnold");
-    WriteLine($"O novo nom é{nome}");
 
+    int a = 2;
+    a = Adicionar20(a);
+    WriteLine($"O Valor da variável aé {a}");
   }
 
-  static void MudarParaImpar(int[] paares)
+  static int Adicionar20(int x)
+  {
+    return x + 20;
+  }
 
-for (var i = 0; i<pares.Length; i++)
+  static void TrocarNome(Pessoa p1, string nomeNovo)
+  {
+    p1.Nome = nomeNovo;
+  }
+  public static void Main()
+  {
+    Pessoa P1 = new Pessoa();
+    P1.Nome = "Doni";
+    P1.Idade = 25;
+    P1.Documento = "1234";
 
-{
-pares[i] pares[i]++;
-}
-public static void Main()
-{
-  int[] pares = new int[] { 0, 2, 4, 6, 8 };
 
-}
-
+    TrocarNome(P1, "Arnold");
+    WriteLine($"O novo nome é : {P1.Nome}");
+  }
 
 }
