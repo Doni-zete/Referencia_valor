@@ -25,7 +25,7 @@ public class Program
     P1.Idade = 25;
     P1.Documento = "1234";
 
-    Pessoa p2 = P1;
+    Pessoa p2 = P1.Clone();
 
 
     TrocarNome(P1, "Arnold");
