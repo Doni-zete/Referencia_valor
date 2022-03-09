@@ -112,16 +112,28 @@ public class Program
     return -1;
   }
 
-  public static  void Main()
+  public static void Main()
   {
 
-    List<Pessoa> pessoas = new List<Pessoa>()
-{
-  new Pessoa(){Nome ="Pedro"},
-    new Pessoa() { Nome = "Jão" },
-    new Pessoa() { Nome = "Luiz" },
-    new Pessoa() { Nome = "Flavio" },
-  };
+    /*     List<Pessoa> pessoas = new List<Pessoa>()
+    {
+      new Pessoa(){Nome ="Pedro"},
+        new Pessoa() { Nome = "Jão" },
+        new Pessoa() { Nome = "Luiz" },
+        new Pessoa() { Nome = "Flavio" },
+      }; */
+
+
+    int idade;
+    WriteLine("Digite sua idade: ");
+    idade = int.Parse(ReadLine());
+    if (idade >= 18)
+    {
+      WriteLine("Você é maior de idade");
+      
+    }else{
+      WriteLine("Você e menor de idade");
+    }
 }
 
 }
