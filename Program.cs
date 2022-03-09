@@ -124,16 +124,49 @@ public class Program
       }; */
 
 
-    int idade;
-    WriteLine("Digite sua idade: ");
-    idade = int.Parse(ReadLine());
-    if (idade >= 18)
+    /*  int idade;
+     WriteLine("Digite sua idade: ");
+     idade = int.Parse(ReadLine());
+     if (idade >= 18)
+     {
+       WriteLine("Você é maior de idade");
+
+     }else{
+       WriteLine("Você e menor de idade");
+     } */
+    int mes;
+    WriteLine("Digite um numero do mês");
+    mes = int.Parse(ReadLine());
+
+
+    if (mes == 1)
     {
-      WriteLine("Você é maior de idade");
-      
-    }else{
-      WriteLine("Você e menor de idade");
+      WriteLine("Janeiro");
     }
-}
+    else if (mes == 2)
+    {
+      WriteLine("Fevereiro");
+    }
+    else if (mes == 3)
+    {
+      WriteLine("Março");
+    }
+    else if (mes == 4)
+    {
+      WriteLine("Abril");
+    }
+    else if (mes == 5)
+    {
+      WriteLine("Maio");
+    }
+    else if (mes == 6)
+    {
+      WriteLine("Junho");
+    }
+    else
+    {
+      WriteLine("Valor invalido");
+    }
+  }
 
 }
