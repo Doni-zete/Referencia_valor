@@ -138,8 +138,32 @@ public class Program
     WriteLine("Digite um numero do mês");
     mes = int.Parse(ReadLine());
 
+    switch (mes)
+    {
+      case 1:
+        WriteLine("Janeiro");
+        break;
+        case 2:
+        WriteLine("Fevereiro");
+        break;
+        case 3:
+        WriteLine("Março");
+        break;
+        case 4:
+        WriteLine("Abril");
+        break;
+        case 5:
+        WriteLine("Maio");
+        break;
+        
+        default:
+        WriteLine("Valor invalido");
+        break;
+    }
 
-    if (mes == 1)
+
+
+    /* if (mes == 1)
     {
       WriteLine("Janeiro");
     }
@@ -166,7 +190,7 @@ public class Program
     else
     {
       WriteLine("Valor invalido");
-    }
+    } */
   }
 
 }
