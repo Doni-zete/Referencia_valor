@@ -1,7 +1,38 @@
-﻿using static System.Console;
+﻿using System.Collections.Generic;
+using static System.Console;
 public class Program
 {
 
+  static void Demo6()
+  {
+    int[] numeros = new int[] { 0, 2, 4, 6, 8 };
+    WriteLine($"Digite o número que gostaria de encontrar");
+    var numero = int.Parse(ReadLine());
+    var idxEncontrado = EncontrarNumero(numeros, numero);
+
+
+    if (idxEncontrado >= 0)
+    {
+      WriteLine($"O numero digitado esta na posição {idxEncontrado}");
+    }
+
+    else
+    {
+      WriteLine("O numero digitado não foi encotrado");
+    }
+  }
+  static void Demo5()
+  {
+    int[] pares = new int[] { 0, 2, 4, 6, 8 };
+    MudarParaImpar(pares);
+    WriteLine($"Os impares {string.Join(",", pares)}");
+  }
+  static void Demo4()
+  {
+    string nome = "Doni";
+    TrocarNome(nome, "Pedro");
+    WriteLine($"O novo nome é {nome}");
+  }
   static void Demo3()
   {
     StructPessoa P1 = new StructPessoa()
@@ -62,11 +93,35 @@ public class Program
   {
     nome = nomeNovo;
   }
-  public static void Main()
+
+  static async void MudarParaImpar(int[] pares)
   {
-    string nome = "Doni";
-    TrocarNome(nome,"Pedro");
-    WriteLine($"O novo nome é {nome}");
+    for (int i = 0; i < pares.Length; i++)
+    {
+      pares[i] = pares[i] + 1;
+    }
   }
+
+  static int EncontrarNumero(int[] numeros, int numero)
+  {
+    for (int i = 0; i < numeros.Length; i++)
+    {
+      if (numeros[i] == numero)
+        return i;
+    }
+    return -1;
+  }
+
+  public static  void Main()
+  {
+
+    List<Pessoa> pessoas = new List<Pessoa>()
+{
+  new Pessoa(){Nome ="Pedro"},
+    new Pessoa() { Nome = "Jão" },
+    new Pessoa() { Nome = "Luiz" },
+    new Pessoa() { Nome = "Flavio" },
+  };
+}
 
 }
