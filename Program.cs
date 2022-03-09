@@ -1,8 +1,92 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using static System.Console;
 public class Program
 {
 
+
+  static void Demo9()
+  {
+    /*     List<Pessoa> pessoas = new List<Pessoa>()
+  {
+    new Pessoa(){Nome ="Pedro"},
+      new Pessoa() { Nome = "Jão" },
+      new Pessoa() { Nome = "Luiz" },
+      new Pessoa() { Nome = "Flavio" },
+    }; */
+
+
+    /*  int idade;
+     WriteLine("Digite sua idade: ");
+     idade = int.Parse(ReadLine());
+     if (idade >= 18)
+     {
+       WriteLine("Você é maior de idade");
+
+     }else{
+       WriteLine("Você e menor de idade");
+     } */
+  }
+  static void Demo8()
+  {
+    /* 
+        int mes;
+      WriteLine("Digite um numero do mês");
+      mes = int.Parse(ReadLine());
+    if (mes == 1)
+      {
+        WriteLine("Janeiro");
+      }
+      else if (mes == 2)
+      {
+        WriteLine("Fevereiro");
+      }
+      else if (mes == 3)
+      {
+        WriteLine("Março");
+      }
+      else if (mes == 4)
+      {
+        WriteLine("Abril");
+      }
+      else if (mes == 5)
+      {
+        WriteLine("Maio");
+      }
+      else if (mes == 6)
+      {
+        WriteLine("Junho");
+      }
+      else
+      {
+        WriteLine("Valor invalido");
+      } */
+  }
+  static void Demo7()
+  {
+
+    /*  switch (mes)
+     {
+       case 1:
+         WriteLine("Janeiro");
+         break;
+         case 2:
+         WriteLine("Fevereiro");
+         break;
+         case 3:
+         WriteLine("Março");
+         break;
+         case 4:
+         WriteLine("Abril");
+         break;
+         case 5:
+         WriteLine("Maio");
+         break;
+
+         default:
+         WriteLine("Valor invalido");
+         break;
+     } */
+  }
   static void Demo6()
   {
     int[] numeros = new int[] { 0, 2, 4, 6, 8 };
@@ -114,83 +198,28 @@ public class Program
 
   public static void Main()
   {
-
-    /*     List<Pessoa> pessoas = new List<Pessoa>()
+    Boolean condicao = true;
+    int valor;
+    while (condicao == true)
     {
-      new Pessoa(){Nome ="Pedro"},
-        new Pessoa() { Nome = "Jão" },
-        new Pessoa() { Nome = "Luiz" },
-        new Pessoa() { Nome = "Flavio" },
-      }; */
-
-
-    /*  int idade;
-     WriteLine("Digite sua idade: ");
-     idade = int.Parse(ReadLine());
-     if (idade >= 18)
-     {
-       WriteLine("Você é maior de idade");
-
-     }else{
-       WriteLine("Você e menor de idade");
-     } */
-    int mes;
-    WriteLine("Digite um numero do mês");
-    mes = int.Parse(ReadLine());
-
-    switch (mes)
-    {
-      case 1:
-        WriteLine("Janeiro");
-        break;
-        case 2:
-        WriteLine("Fevereiro");
-        break;
-        case 3:
-        WriteLine("Março");
-        break;
-        case 4:
-        WriteLine("Abril");
-        break;
-        case 5:
-        WriteLine("Maio");
-        break;
-        
-        default:
-        WriteLine("Valor invalido");
-        break;
+      WriteLine("Digite um valor, 0 para sair");
+      valor = int.Parse(ReadLine());
+      if (valor == 0)
+      {
+        WriteLine("Voce saiu da aplicaao");
+      condicao = false;
+      }
+      else{
+        WriteLine("O valor informado é:"+valor);
+      }
     }
 
 
 
-    /* if (mes == 1)
-    {
-      WriteLine("Janeiro");
-    }
-    else if (mes == 2)
-    {
-      WriteLine("Fevereiro");
-    }
-    else if (mes == 3)
-    {
-      WriteLine("Março");
-    }
-    else if (mes == 4)
-    {
-      WriteLine("Abril");
-    }
-    else if (mes == 5)
-    {
-      WriteLine("Maio");
-    }
-    else if (mes == 6)
-    {
-      WriteLine("Junho");
-    }
-    else
-    {
-      WriteLine("Valor invalido");
-    } */
+
+
+
+
   }
 
 }
