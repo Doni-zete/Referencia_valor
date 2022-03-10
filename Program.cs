@@ -16,24 +16,15 @@ public class Program
   }
   static void Demo10()
   {
-    Boolean condicao = true;
-    int valor;
 
-    do
+
+
+    int[] lista = { 1, 2, 3, 4, 5 };
+
+    foreach (int numero in lista)
     {
-      WriteLine("Digite um valor, 0 para sair");
-      valor = int.Parse(ReadLine());
-      if (valor == 0)
-      {
-        WriteLine("Voce saiu da aplicaao");
-        condicao = false;
-      }
-      else
-      {
-        WriteLine("O valor informado é:" + valor);
-      }
-    } while (condicao == true);
-
+      WriteLine(numero);
+    }
   }
 
   static void Demo9()
@@ -231,12 +222,26 @@ public class Program
   public static void Main()
   {
 
-    int[] lista = { 1, 2, 3, 4, 5 };
 
-    foreach(int numero in lista)
+
+Boolean condicao = true;
+    int valor;
+
+    do
     {
-      WriteLine(numero);
-    }
+      WriteLine("Digite um valor, 0 para sair");
+      valor = int.Parse(ReadLine());
+      if (valor == 0)
+      {
+        WriteLine("Voce saiu da aplicaao");
+      break;
+      }
+      else
+      {
+        WriteLine("O valor informado é:" + valor);
+        continue;
+      }
+    } while (condicao == true);
 
 
 
