@@ -200,8 +200,8 @@ public class Program
   {
     Boolean condicao = true;
     int valor;
-    while (condicao == true)
-    {
+   
+    do{
       WriteLine("Digite um valor, 0 para sair");
       valor = int.Parse(ReadLine());
       if (valor == 0)
@@ -212,7 +212,7 @@ public class Program
       else{
         WriteLine("O valor informado é:"+valor);
       }
-    }
+    } while (condicao == true);
 
 
 
