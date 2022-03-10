@@ -3,6 +3,17 @@ using static System.Console;
 public class Program
 {
 
+  static void Demo11()
+  {
+    int valor;
+    WriteLine("Digite um valor");
+    valor = int.Parse(ReadLine());
+
+    for (int i = valor; i <= 10; i++)
+    {
+      WriteLine(i);
+    }
+  }
   static void Demo10()
   {
     Boolean condicao = true;
@@ -217,18 +228,17 @@ public class Program
     return -1;
   }
 
-  public static  void Main()
+  public static void Main()
   {
 
+    int[] lista = { 1, 2, 3, 4, 5 };
 
-    int valor;
-    WriteLine("Digite um valor");
-    valor = int.Parse(ReadLine());
-
-    for(int i = valor;i <=10; i++)
+    foreach(int numero in lista)
     {
-      WriteLine(i);
+      WriteLine(numero);
     }
+
+
 
 
 
