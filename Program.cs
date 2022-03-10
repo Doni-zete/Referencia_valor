@@ -3,6 +3,27 @@ using static System.Console;
 public class Program
 {
 
+  static void Demo10()
+  {
+    Boolean condicao = true;
+    int valor;
+
+    do
+    {
+      WriteLine("Digite um valor, 0 para sair");
+      valor = int.Parse(ReadLine());
+      if (valor == 0)
+      {
+        WriteLine("Voce saiu da aplicaao");
+        condicao = false;
+      }
+      else
+      {
+        WriteLine("O valor informado é:" + valor);
+      }
+    } while (condicao == true);
+
+  }
 
   static void Demo9()
   {
@@ -196,26 +217,18 @@ public class Program
     return -1;
   }
 
-  public static void Main()
+  public static  void Main()
   {
-    Boolean condicao = true;
+
+
     int valor;
-   
-    do{
-      WriteLine("Digite um valor, 0 para sair");
-      valor = int.Parse(ReadLine());
-      if (valor == 0)
-      {
-        WriteLine("Voce saiu da aplicaao");
-      condicao = false;
-      }
-      else{
-        WriteLine("O valor informado é:"+valor);
-      }
-    } while (condicao == true);
+    WriteLine("Digite um valor");
+    valor = int.Parse(ReadLine());
 
-
-
+    for(int i = valor;i <=10; i++)
+    {
+      WriteLine(i);
+    }
 
 
 
